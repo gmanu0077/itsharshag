@@ -8,6 +8,7 @@ import {
   useMotionValue,
   useSpring,
 } from "framer-motion";
+import Link from "next/link";
 
 export const AnimatedTooltip = ({
   items,
@@ -15,8 +16,8 @@ export const AnimatedTooltip = ({
   items: {
     id: number;
     name: string;
-    url:string;
-    followers:string,
+    url: string;
+    followers: string;
     handle: string;
     icon: JSX.Element;
   }[];
@@ -75,12 +76,16 @@ export const AnimatedTooltip = ({
                 {item.handle}
               </div>
               <div className="text-white text-xs">{item.name}</div>
-              <div className="text-gray-300 text-xs">{item.followers}followers</div>
-
+              <div className="text-gray-300 text-xs">
+                {item.followers} followers
+              </div>
             </motion.div>
           )}
-          <div className="h-100 w-100 object-cover !m-0 !p-0 object-top rounded-full h-14 w-14 border-2 group-hover:scale-105 group-hover:z-30 border-white  relative transition duration-500 ">{item.icon}</div>
-   
+          <Link href={item.url} target="_blank" rel="noopener noreferrer">
+            <div className="h-100 w-100 object-cover !m-0 !p-0 object-top rounded-full h-14 w-14 border-2 group-hover:scale-105 group-hover:z-30 border-white  relative transition duration-500 ">
+              {item.icon}
+            </div>
+          </Link>
         </div>
       ))}
     </>

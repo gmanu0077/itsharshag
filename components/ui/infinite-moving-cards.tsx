@@ -1,7 +1,7 @@
 "use client";
 
 import { cn } from "@/lib/utils";
-import Image  from 'next/image';
+import Image from "next/image";
 import React, { useEffect, useState } from "react";
 
 export const InfiniteMovingCards = ({
@@ -15,7 +15,7 @@ export const InfiniteMovingCards = ({
     quote: string;
     name: string;
     title: string;
-    imgSrc:string;
+    imgSrc: string;
   }[];
   direction?: "left" | "right";
   speed?: "fast" | "normal" | "slow";
@@ -105,23 +105,24 @@ export const InfiniteMovingCards = ({
                 {item.quote}
               </span>
               <div className="flex  gap-4 mt-5">
-              <img
-          alt="Jared Palmer"
-          className="rounded-full border"
-          height={40}
-          src={item.imgSrc}
-          style={{
-            aspectRatio: "60/60",
-            objectFit: "cover",
-          }}
-          width={40}
-        />
-        <div className="grid gap-0.5 text-sm">
-          <div className="font-semibold">{item.name}</div>
-          <div className="text-xs text-gray-500 dark:text-gray-400">{item.title}</div>
-        </div>
-       
-      </div>
+                <img
+                  alt="Jared Palmer"
+                  className="rounded-full border"
+                  height={40}
+                  src={item.imgSrc}
+                  style={{
+                    aspectRatio: "60/60",
+                    objectFit: "cover",
+                  }}
+                  width={40}
+                />
+                <div className="grid gap-0.5 text-sm">
+                  <div className="font-semibold">{item.name}</div>
+                  <div className="text-xs text-gray-500 dark:text-gray-400">
+                    {item.title}
+                  </div>
+                </div>
+              </div>
             </blockquote>
           </li>
         ))}
@@ -130,8 +131,10 @@ export const InfiniteMovingCards = ({
   );
 };
 
-
-import { CardTitle, CardDescription, CardHeader, CardContent, Card } from "@/components/ui/card"
-
-
-
+import {
+  CardTitle,
+  CardDescription,
+  CardHeader,
+  CardContent,
+  Card,
+} from "@/components/ui/card";
