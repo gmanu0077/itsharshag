@@ -2,6 +2,8 @@ import React from "react";
 
 import { BentoGrid, BentoGridItem } from "./ui/bento-grid";
 import { FaCartArrowDown } from "react-icons/fa";
+import { FaGithub } from 'react-icons/fa';
+
 import { cn } from "@/lib/utils";
 import { Montserrat } from "next/font/google";
 import Link from "next/link";
@@ -35,6 +37,7 @@ export function Products() {
           <BentoGridItem
             link={product.link}
             title={product.name}
+            icon={product.icon}
             description={<div dangerouslySetInnerHTML={{ __html: product.description }} />}
             className={cn("w-full text-lg py-4 ",montserrat.className)} // Increased text size and padding for height
             
@@ -82,7 +85,7 @@ export const productsData = [
     // ),
     icon: (
       <Link href="https://github.com/gmanu0077/football-league-analysis">
-        <FaCartArrowDown className="text-blue-500 w-5 h-5" />
+        <FaGithub className="text-white-500 w-5 h-5" />
       </Link>
     ),
   },
@@ -98,7 +101,7 @@ export const productsData = [
     // ),
     icon: (
       <Link href="https://github.com/gmanu0077/beats-maker-app.git">
-        <FaCartArrowDown className="text-blue-500 w-5 h-5" />
+        <FaGithub className="text-white-500 w-5 h-5" />
       </Link>
     ),
   },
