@@ -74,11 +74,11 @@ const ExperineceContent = [
     from: "Jan 2023",
     to: "may 2023",
     description: [
-      `SpearheadedthedevelopmentofSimpleMail, an innovative email solution, attracting over 1000 active
+      `Spearheaded the development of SimpleMail, an innovative email solution, attracting over 1000 active
       users in its first year`,
       `Designed and implemented Chrome extensions and Outlook Add-ins, incorporating AI-powered bots to
       increase productivity by 30%`,
-      `Ledthetransition from a monolithic AWS architecture to a microservices framework, enabling horizontal
+      `Led the transition from a monolithic AWS architecture to a microservices framework, enabling horizontal
       server scaling for improved efficiency and reliability.",
     badge: "React"`,
     ` Developed AI bots using GPT-4 for API creation, contributing to a surge in user engagement with over 1k
@@ -87,7 +87,7 @@ const ExperineceContent = [
      balancing.`,
      `Focused on UI/UXdesign principles to make applications more engaging and user-friendly.`,
      `Proactively debugged and optimised the codebase to ensure high performance and reliability`,
-     `Rapidlyprototyped features to gather product feedback and iterate on user requirements`,
+     `Rapidly prototyped features to gather product feedback and iterate on user requirements`,
      `Developed all aspects of Chrome extensions and Outlook Add-in from scratch, architecting a robust
      server setup on AWS to support these innovations `,
 
@@ -100,13 +100,13 @@ const ExperineceContent = [
     from: "Mar 2022",
     to: "May 2022",
     description: [
-      `Workedasadataminingengineer,extracting insights from multiple databases to create an optimised
+      `Worked as a data mining engineer,extracting insights from multiple databases to create an optimised
       database, enhancing data analysis.`,
-      `Developedauser-friendly website with WebFlow to centralise community interaction. `,
-      ` AutomatedemailworkflowswithZapier, improving efficiency and contributing to a 20% increase in user
+      `Developed a user-friendly website with WebFlow to centralise community interaction. `,
+      ` Automated email workflows with Zapier, improving efficiency and contributing to a 20% increase in user
       retention.`,
       `Managed database operations using Airtable, streamlining project workflows.`,
-      `EmployedGoogleAMPinseparateprojects to boost community engagement.`
+      `Employed GoogleAMP in separate projects to boost community engagement.`
     ],
     skills: ["python","webflow","data-mining","html","css"],
   },
