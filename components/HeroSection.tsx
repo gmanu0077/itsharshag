@@ -3,7 +3,7 @@ import React from "react";
 import { Montserrat } from "next/font/google";
 import { cn } from "@/lib/utils";
 import { Button } from "./ui/button";
-import imgSrc from "../public/my-photo.png";
+import imgSrc from "../public/my-photo.jpg";
 import HeroImg from "./HeroImg";
 
 const montserrat = Montserrat({
@@ -27,11 +27,11 @@ const HeroSection = () => {
                   montserrat.className
                 )}
               >
-                Harsh Agrawal
+                Manu Goel
               </span>
               <br />
             </h1>
-            <p> I work on ideas that make a dent in the world.</p>
+            <p> Dynamic and innovative Full-Stack Developer </p>
 
             <div className="flex gap-8">
               <div>
@@ -42,37 +42,36 @@ const HeroSection = () => {
               </div>
               <div>
                 <p className="text-md text-gray-400 m-0 p-0">
-                  Check out my book that covers my journey about:
+                  Software Developer with strong expertise in front-end and back-end
+ technologies, including JavaScript, TypeScript, Node.js, React, Redux, and PostgreSQL
                 </p>
                 <ul
                   className="m-0 mb-4 pl-4 text-gray-400"
                   style={{ marginTop: 0, listStyleType: "disc" }}
                 >
                   <li>
-                    Learning programming during high school and releasing video
-                    games on Play Store
+                  Proficient in SQL
+ and NoSQLdatabases, with a proven track record in startup environments, leading teams, and driving
+ technological innovation.
                   </li>
-                  <li>Getting into NYU with a $100K scholarship</li>
                   <li>
-                    Dropping out to work for a $10B+ tech company (Avalara) as
-                    their youngest SWE
+                  Experienced in developing scalable applications, with a focus on AI integration
+ and user experience
                   </li>
-                  <li>Consulting remotely for US startups</li>
                   <li>
-                    Building a DevTools startup and getting interest from Tier 1
-                    VCs (a16z, Sequoia, etc.)
+                    Building startups 
                   </li>
                   <li>and a lot more!</li>
                 </ul>
 
-                <Link
+                {/* <Link
                   href="https://itsharshagrawal.gumroad.com/l/journey"
                   className="inline-block"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <Button className="px-4 py-2 rounded-md">Explore</Button>
-                </Link>
+                </Link> */}
               </div>
             </div>
           </div>

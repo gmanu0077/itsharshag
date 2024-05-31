@@ -12,7 +12,7 @@ const HeroImg = ({ imgSrc }: any) => {
     //     <CardItem translateZ="100" className="w-72 mt-4">
     <Image
       src={imgSrc}
-      className=" object-cover rounded-xl group-hover/card:shadow-xl"
+      className=" object-cover rounded-xxl group-hover/card:shadow-xl"
       alt="thumbnail"
     />
     //     </CardItem>

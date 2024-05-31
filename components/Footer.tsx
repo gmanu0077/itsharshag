@@ -34,7 +34,7 @@ export default function Footer() {
         </div>
         <div className="flex flex-col items-center space-y-2">
           <p className="text-xs tracking-wide text-gray-500 dark:text-gray-400">
-            © 2024 Harsh Agarwal. All rights reserved.
+            © 2024 Manu goel. All rights reserved.
           </p>
           <Link
             className="inline-flex h-6 items-center text-xs font-medium underline rounded-md hover:underline transition-colors text-gray-500 dark:text-gray-400 hover:text-gray-900"
@@ -62,53 +62,29 @@ const Links = [
   icon:BriefcaseBusiness,
 
 },
-{
-  link: "#videos",
-  label:"Featured Videos",
-  icon:Video,
 
-},
 {
   link: "#products",
   label:"Products",
   icon:ShoppingCart
 
-},
-{
-  link: "#blogs",
-  label:"Blogs",
-  icon:Rss,
-
-},
-{
-  link: "#loves",
-  label:"Love and Gratitude",
-  icon:MessageCircleHeart,
-
-},
-
-
+}
 
 
 ]
 const socials = [
   {
-      link: "https://twitter.com/itsharshag",
+      link: "https://twitter.com/gmanu0077",
       label:"X",
       icon:SiX,
 
   },
 
   {
-      link: "https://www.linkedin.com/in/itsharshag/",
+      link: "https://www.linkedin.com/in/manu-goel-7899781a0/",
       label:"LinkedIn",
       icon:SiLinkedin,
 
   },
-  {
-      link: "https://instagram.com/_itsharshag",
-      label:"Instagram",
-      icon:SiInstagram,
-
-  },
+  
 ]

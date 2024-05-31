@@ -69,72 +69,60 @@ export function Experiences() {
 
 const ExperineceContent = [
   {
-    company: "BanterAI",
-    role: "Lead Software Engineer",
-    from: "Jun 2023",
-    to: "Present",
+    company: "SimpleAIpowered",
+    role: "Software Engineer",
+    from: "Jan 2023",
+    to: "may 2023",
     description: [
-      `Worked on low-latency voice call (<2s response time) experiences for web and phone with websockets and Twilio`,
-      `Setup efficient RAG system to provide bots access to long-form content and real-time information`,
-      `Built internal tools to fine-tune LLMs in seconds",
+      `SpearheadedthedevelopmentofSimpleMail, an innovative email solution, attracting over 1000 active
+      users in its first year`,
+      `Designed and implemented Chrome extensions and Outlook Add-ins, incorporating AI-powered bots to
+      increase productivity by 30%`,
+      `Ledthetransition from a monolithic AWS architecture to a microservices framework, enabling horizontal
+      server scaling for improved efficiency and reliability.",
     badge: "React"`,
+    ` Developed AI bots using GPT-4 for API creation, contributing to a surge in user engagement with over 1k
+    users in a few months, improving user retention by 40%`,
+     ` Led a team in creating multiple webbots from scratch, focusing on scalability and efficient load
+     balancing.`,
+     `Focused on UI/UXdesign principles to make applications more engaging and user-friendly.`,
+     `Proactively debugged and optimised the codebase to ensure high performance and reliability`,
+     `Rapidlyprototyped features to gather product feedback and iterate on user requirements`,
+     `Developed all aspects of Chrome extensions and Outlook Add-in from scratch, architecting a robust
+     server setup on AWS to support these innovations `,
+
     ],
-    skills: ["WebSocket", "Voice Agents", "AI Agents", "LLMs", "RAG", "Twilio"],
+    skills: ["AI Agents", "LLMs", "RAG",  "MySQL", "PostgreSQL", "AWS", "Next.js", "TypeScript", "Prisma"],
   },
   {
-    company: "DevKit",
-    role: "Founder",
-    from: "Jan 2022",
-    to: "Present",
-    description: [
-      `Bundled and AI-powered tools to help developers save 10s of hours every week.`,
-      `$5K revenue. 8K+ signups. $10K raised from ZFellows. `,
-      `Pitched to partners at a16z, Sequoia, Nexus Tech Ventures, Techstars, etc. on 1-1 virtual calls`,
-    ],
-    skills: ["Vercel", "AWS", "NextJS"],
-  },
-  {
-    company: "DappCamp",
-    role: "Software Engineer",
+    company: "Sparklehood",
+    role: "Software Developer Engineer (Intern)",
     from: "Mar 2022",
-    to: "Jan 2023",
+    to: "May 2022",
     description: [
-      `Built a custom course platform to migrate from a revenue-sharing platform resulting in savings of over $25K`,
-      `Built an internal hiring platform to connect Web3 companies with developers`,
-      `Scraped and analyzed data for market research`,
+      `Workedasadataminingengineer,extracting insights from multiple databases to create an optimised
+      database, enhancing data analysis.`,
+      `Developedauser-friendly website with WebFlow to centralise community interaction. `,
+      ` AutomatedemailworkflowswithZapier, improving efficiency and contributing to a 20% increase in user
+      retention.`,
+      `Managed database operations using Airtable, streamlining project workflows.`,
+      `EmployedGoogleAMPinseparateprojects to boost community engagement.`
     ],
-    skills: ["Python", "Solidity", "NextJS", "Amazon ECS"],
+    skills: ["python","webflow","data-mining","html","css"],
   },
   {
-    company: "Avalara",
-    role: "Software Engineer",
-    from: "Jul 2020",
+    company: "Spectamatrix",
+    role: "FrontEnd Developer (Intern)",
+    from: "Sep 2021",
     to: "Dec 2021",
     description: [
-      `Migrated multi-node EC2 based ElasticSearch 6 cluster to EKS based ElasticSearch 7 cluster. The cluster stored more than 500M records.`,
-      `Worked on data pipelines built with Spark and Scalding processing terabytes of data every month`,
-      `Built a low-code tool with Go and React to allow users to scrape websites with an intuitive user interface. It is being used extensively across multiple teams.`,
-      `Built a Scala REST API to transform cross border taxes and rates data for downstream systems.`,
+      `Integrated stock and broker APIs into an AI/ML project, improving data accuracy and analysis for financial
+      applications.`,
+      ` Created dynamic client dashboards and real-time stock fluctuation charts, enhancing user experience
+      and investment decision-making.`,
+      ` Utilised Chrome Developer Tools for debugging and optimising web applications`,
     ],
-    skills: ["ReactJS", "NodeJS", "Apache Spark", "GoCD", "Temporal", "Scala"],
+    skills: ["ReactJS", "Typescript", "html","css","javascript"],
   },
-  {
-    company: "Avalara",
-    role: "Software Engineer intern",
-    from: "Mar 2020",
-    to: "Jun 2020",
-    description: [
-      `Went through a 3 months bootcamp covering Scala, data processing with Akka Streams, Spark, Docker, and Kubernetes. I implemented Okta Authentication for one of our internal apps`,
-      `Maintained internal and open-source Scala projects.`,
-      `Contributed to managing our monthly data processing cycle.`,
-    ],
-    skills: [
-      "NodeJS",
-      "Docker",
-      "Kubernets",
-      "Javascript",
-      "Scala",
-      "Apache Spark",
-    ],
-  },
+ 
 ];

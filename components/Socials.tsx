@@ -57,44 +57,44 @@ const socialsData = [
     ),
     handle: "@itsharshag",
   },
-  {
-    id: 5,
-    name: "YouTube (Tech)",
-    url: "https://www.youtube.com/HarshAgrawalOG",
-    followers: "300+",
-    icon: (
-      <SiYoutube className="bg-white rounded-full w-full h-full text-blue-500 hover:scale-125 transition-all" />
-    ),
-    handle: "@HarshAgrawalOG",
-  },
-  {
-    id: 3,
-    name: "Instagram (Tech)",
-    url: "https://instagram.com/itsharshag",
-    followers: "400+",
-    icon: (
-      <SiInstagram className="bg-blue-500 rounded-full  w-full h-full text-white hover:scale-125 transition-all" />
-    ),
-    handle: "@_itsharshag",
-  },
-  {
-    id: 6,
-    name: "YouTube (Travel)",
-    url: "https://www.youtube.com/@HarshAgrawalVlogs",
-    followers: "30+",
-    icon: (
-      <SiYoutube className="bg-white rounded-full w-full h-full text-blue-500 hover:scale-125 transition-all" />
-    ),
-    handle: "@HarshAgrawalVlogs",
-  },
-  {
-    id: 4,
-    name: "Instagram (Travel)",
-    url: "https://instagram.com/_itsharshag",
-    followers: "200+",
-    icon: (
-      <SiInstagram className="bg-blue-500 rounded-full  w-full h-full text-white hover:scale-125 transition-all" />
-    ),
-    handle: "@_itsharshag",
-  },
+  // {
+  //   id: 5,
+  //   name: "YouTube (Tech)",
+  //   url: "https://www.youtube.com/HarshAgrawalOG",
+  //   followers: "300+",
+  //   icon: (
+  //     <SiYoutube className="bg-white rounded-full w-full h-full text-blue-500 hover:scale-125 transition-all" />
+  //   ),
+  //   handle: "@HarshAgrawalOG",
+  // },
+  // {
+  //   id: 3,
+  //   name: "Instagram (Tech)",
+  //   url: "https://instagram.com/itsharshag",
+  //   followers: "400+",
+  //   icon: (
+  //     <SiInstagram className="bg-blue-500 rounded-full  w-full h-full text-white hover:scale-125 transition-all" />
+  //   ),
+  //   handle: "@_itsharshag",
+  // },
+  // {
+  //   id: 6,
+  //   name: "YouTube (Travel)",
+  //   url: "https://www.youtube.com/@HarshAgrawalVlogs",
+  //   followers: "30+",
+  //   icon: (
+  //     <SiYoutube className="bg-white rounded-full w-full h-full text-blue-500 hover:scale-125 transition-all" />
+  //   ),
+  //   handle: "@HarshAgrawalVlogs",
+  // },
+  // {
+  //   id: 4,
+  //   name: "Instagram (Travel)",
+  //   url: "https://instagram.com/_itsharshag",
+  //   followers: "200+",
+  //   icon: (
+  //     <SiInstagram className="bg-blue-500 rounded-full  w-full h-full text-white hover:scale-125 transition-all" />
+  //   ),
+  //   handle: "@_itsharshag",
+  // },
 ];

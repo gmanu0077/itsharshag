@@ -24,12 +24,12 @@ const LandingPage = () => {
         <div className="h-10 xl:h-32 bg-grad from-black absolute -bottom-5 left-0"></div>
       </div>
       <div className="max-w-7xl mx-auto p-5">
-        <PressVideos />
+        {/* <PressVideos /> */}
         <Products />
-        <Blogs />
-        <WallOfLoveAndGratitude />
+        {/* <Blogs />
+        <WallOfLoveAndGratitude /> */}
         <Experiences />
-        <Socials />
+        {/* <Socials /> */}
       </div>
       <div className="max-w-7xl mx-auto p-5">
         <Footer />
